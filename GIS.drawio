@@ -1,1 +1,281 @@
-<mxfile host="app.diagrams.net" modified="2022-04-23T13:10:09.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="17.4.6" etag="ArdVBchJ1jOnIbbRVDLn" type="github"><diagram id="OAIju3OTx20OCRc_igek">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-23T13:10:40.628Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="xGrgWUVh5EVA6JVlZeM4" version="17.4.6" type="github">
+  <diagram id="OAIju3OTx20OCRc_igek" name="GIS 基本架构">
+    <mxGraphModel dx="2249" dy="2008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7oW4WVJDjuKaqpJyWiR-2" target="W7oW4WVJDjuKaqpJyWiR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-2" value="(地理)数据库" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7oW4WVJDjuKaqpJyWiR-4" target="W7oW4WVJDjuKaqpJyWiR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-4" value="GIS服务器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7oW4WVJDjuKaqpJyWiR-6" target="W7oW4WVJDjuKaqpJyWiR-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-6" value="Web服务器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7oW4WVJDjuKaqpJyWiR-10" target="W7oW4WVJDjuKaqpJyWiR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7oW4WVJDjuKaqpJyWiR-10" target="W7oW4WVJDjuKaqpJyWiR-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7oW4WVJDjuKaqpJyWiR-10" target="W7oW4WVJDjuKaqpJyWiR-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-10" value="Web GIS客户端" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-11" value="Web浏览器客户端" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="290" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-12" value="桌面应用程序客户端" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-13" value="移动客户端" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="420" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-14" value="&lt;span style=&quot;box-sizing: border-box ; font-weight: 700 ; color: rgb(67 , 67 , 67) ; font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: 16px ; text-indent: 32px ; background-color: rgb(255 , 255 , 255)&quot;&gt;SuperMap iDesktopX&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="177" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-15" value="&lt;span style=&quot;box-sizing: border-box ; font-weight: 700 ; color: rgb(67 , 67 , 67) ; font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: 16px ; text-indent: 32px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Web端GIS软件开发平台&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="260" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-16" value="&lt;span style=&quot;box-sizing: border-box ; font-weight: 700 ; color: rgb(67 , 67 , 67) ; font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: 16px ; text-indent: 32px ; background-color: rgb(255 , 255 , 255)&quot;&gt;三维客户端开发平台&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="310" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-17" value="&lt;span style=&quot;box-sizing: border-box ; font-weight: 700 ; color: rgb(67 , 67 , 67) ; font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: 16px ; text-indent: 32px ; background-color: rgb(255 , 255 , 255)&quot;&gt;SuperMap iDesktop&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="126" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-18" value="&lt;span style=&quot;box-sizing: border-box ; font-weight: 700 ; color: rgb(67 , 67 , 67) ; font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: 16px ; text-indent: 32px ; background-color: rgb(255 , 255 , 255)&quot;&gt;全功能移动GIS软件开发平台&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="392" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-19" value="&lt;span style=&quot;box-sizing: border-box ; font-weight: 700 ; color: rgb(67 , 67 , 67) ; font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: 16px ; text-indent: 32px ; background-color: rgb(255 , 255 , 255)&quot;&gt;全功能移动GIS APP&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="443" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-20" value="&lt;span style=&quot;box-sizing: border-box ; font-weight: 700 ; color: rgb(67 , 67 , 67) ; font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: 16px ; text-indent: 32px ; background-color: rgb(255 , 255 , 255)&quot;&gt;轻量级移动 GIS APP&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1121" y="490" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-21" value="&lt;span style=&quot;box-sizing: border-box ; font-weight: 700 ; color: rgb(67 , 67 , 67) ; font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: 16px ; text-indent: 32px ; background-color: rgb(255 , 255 , 255)&quot;&gt;SuperMap iMobile与AR GIS技术开发实战下载Demo&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1121" y="540" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-22" value="&lt;span style=&quot;box-sizing: border-box ; font-weight: 700 ; color: rgb(67 , 67 , 67) ; font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: 16px ; text-indent: 32px ; background-color: rgb(255 , 255 , 255)&quot;&gt;SuperMap iMobile for Android/iOS&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="392" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-23" value="&lt;span style=&quot;box-sizing: border-box ; font-weight: 700 ; color: rgb(67 , 67 , 67) ; font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: 16px ; text-indent: 32px ; background-color: rgb(255 , 255 , 255)&quot;&gt;SuperMap iTablet for Android/iOS&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="443" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-24" value="&lt;span style=&quot;box-sizing: border-box ; font-weight: 700 ; color: rgb(67 , 67 , 67) ; font-family: &amp;#34;microsoft yahei&amp;#34; ; font-size: 16px ; text-indent: 32px ; background-color: rgb(255 , 255 , 255)&quot;&gt;SuperMap ARSurvey for Android/iOS&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="490" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-25" value="&lt;a href=&quot;https://pan.baidu.com/s/1X8aq5BjlJ33irQ0IAVab8g&quot; target=&quot;_blank&quot; style=&quot;box-sizing: border-box ; background-color: rgb(255 , 255 , 255) ; color: rgb(167 , 34 , 44) ; transition-duration: 0.2s ; font-family: &amp;quot;microsoft yahei&amp;quot; ; font-size: 16px ; text-indent: 32px&quot;&gt;https://pan.baidu.com/s/1X8aq5BjlJ33irQ0IAVab8g&lt;/a&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="550" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-26" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="W7oW4WVJDjuKaqpJyWiR-27" target="W7oW4WVJDjuKaqpJyWiR-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-120" y="642" />
+              <mxPoint x="-120" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-27" value="GIS应用服务器&lt;br&gt;SuperMap iServer" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="622" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-28" value="公有云GIS平台&lt;br&gt;SuperMap Online" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="622" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-29" value="GIS门户服务器&lt;br&gt;SuperMap iPortal" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7oW4WVJDjuKaqpJyWiR-33" target="W7oW4WVJDjuKaqpJyWiR-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7oW4WVJDjuKaqpJyWiR-33" target="W7oW4WVJDjuKaqpJyWiR-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7oW4WVJDjuKaqpJyWiR-33" target="W7oW4WVJDjuKaqpJyWiR-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-33" value="superMap" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7oW4WVJDjuKaqpJyWiR-35" target="W7oW4WVJDjuKaqpJyWiR-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-35" value="SuperMap" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="799" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7oW4WVJDjuKaqpJyWiR-37" target="W7oW4WVJDjuKaqpJyWiR-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-37" value="远程Web服务" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="797" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7oW4WVJDjuKaqpJyWiR-39" target="W7oW4WVJDjuKaqpJyWiR-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-39" value="地图瓦片包" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="797" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7oW4WVJDjuKaqpJyWiR-42" target="W7oW4WVJDjuKaqpJyWiR-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-41" value="将多来源数据发布为iServer GIS服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#CC0000;" vertex="1" connectable="0" parent="W7oW4WVJDjuKaqpJyWiR-40">
+          <mxGeometry x="0.6138" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-42" value="其他标准" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="799" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-43" value="&lt;ol&gt;&lt;li&gt;&lt;span&gt;工作空间：数据库、文件型&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;流处理模型、动态标绘库&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="857" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-44" value="&lt;ol&gt;&lt;li&gt;Rest 服务、OGC服务&lt;/li&gt;&lt;li&gt;百度地图、天地图、超图云服务。。。&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="857" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-45" value="&lt;ol&gt;&lt;li&gt;MBTiles、Geopackage、TPK、ZXY&lt;/li&gt;&lt;li&gt;SuperMap UGC(v5)、MongoDB(MVT)&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="857" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-46" value="&lt;ol&gt;&lt;li&gt;Elasticsearch服务、PostGIS数据、Hbase服务&lt;/li&gt;&lt;li&gt;Shape文件&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="857" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-47" value="&lt;font color=&quot;#000000&quot;&gt;地理web服务&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#CC0000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-48" value="地图服务" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-49" value="数据服务" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-50" value="分析服务" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-51" value="三维服务" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-52" value="数据目录服务" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-53" value="数据流服务" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="760" y="-60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-54" value="地图操作" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-55" value="动态专题图" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-56" value="属性查询" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-57" value="空间查询" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-58" value="距离查询" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-59" value="最近地物查找" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-60" value="距离/面积量算" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-61" value="动态缓存" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-62" value="动态投影" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-63" value="数据集管理" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-64" value="数据集编辑" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-65" value="数据查询" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-66" value="统计分析" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-67" value="交通网络分析" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-68" value="空间分析" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-69" value="交通换乘分析" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-70" value="三维网络分析" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-71" value="影像数据发布(*.SIT)&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%8A%A8%E6%80%81%E6%8A%95%E5%BD%B1%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Brounded%3D0%3BfontColor%3D%23000000%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22340%22%20y%3D%22-190%22%20width%3D%22120%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E（）&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-72" value="地形数据发布(DEM)" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-73" value="KML数据发布(KML)" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-74" value="模型数据发布" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-75" value="矢量数据发布" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-76" value="地图发布" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-77" value="符号发布" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-78" value="三维安全" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-79" value="三维更新" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-80" value="三维GPU空间分析" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-590" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-81" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontColor=#000000;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-440" width="20" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-82" value="其他服务" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-83" value="地址匹配服务" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-84" value="动态标绘服务" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-85" value="机器学习服务" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-86" value="数据科学服务" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-87" value="" style="html=1;shadow=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="390" width="45" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="W7oW4WVJDjuKaqpJyWiR-88" value="" style="html=1;shadow=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;rounded=0;fontColor=#000000;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="437.5" y="130" width="45" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
